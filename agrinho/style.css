@@ -1,0 +1,13 @@
+body{
+    background-image: url("imagens/agrinho.jpeg");
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position-x: center;
+}
+
+h1{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #006400;
+}
