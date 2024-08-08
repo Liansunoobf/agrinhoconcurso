@@ -1,0 +1,93 @@
+/* Body */
+
+body{
+    margin: 0px;
+	padding: 0px;
+	border: 0px;   
+	background-image: url('../imagens/agro.jpg');
+	opacity: 0.9;
+    background-color: #02A000; /* Cor de fundo cinza como contingência(fallback) */
+    background-size: cover;  /* Cobrir toda a área disponível */
+    background-repeat: no-repeat;  /* Não repetir a imagem */
+    background-position: center;  /* Centralizar a imagem */
+    background-attachment: fixed; /* Fixa a imagem */
+    
+}
+
+/* Menu */
+
+.menu{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+    background-color: black;
+    text-align: center;
+    font-family: calibri;
+    font-size: 25px;
+}
+
+.menu ul,li,a{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu a:hover{
+    color: black;
+    background-color: white;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+}
+
+/* Conteúdo */
+
+.conteudo{
+    margin-top: 20px;
+    border-top: 0;
+    padding-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #02A000;
+}
+
+.conteudo p{
+    text-align: justify;
+    font-family: calibri;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.conteudo h1{
+    margin-top: 0px;
+	padding-top: 0px;
+	border-top: 0px;
+    text-align: center;
+    font-family: calibri; 
+}
+
+.conteudo h2{
+    font-family: calibri; 
+    padding-left: 20px;
+}
+
+.bandeira {
+    float: left;
+    margin-right: 15px;
+    padding-left: 20px;
+    height: 30%;
+    width: 30%;
+}
